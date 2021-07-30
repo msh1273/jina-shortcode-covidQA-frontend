@@ -9,8 +9,12 @@ Data set used: [Covid-QA](https://www.kaggle.com/xhlulu/covidqa) from kaggle
 ## If you want to run it in local
 ## Instructions
 This is a shortcode using jinahub's indexer and encoder. You can try running this project with the Run on ainize button.
+<hr>
+이것은 jina를 쉽게 이해할 수 있도록 jina프레임워크를 사용하여 shortcode로 구성한 프로젝트입니다. covidQA의 news 데이터 셋을 사용하였으며 jinahub에 만들어져있는 encoder와 indexer를 가져와 사용했습니다. bert모델 기반이기 때문에 오타를 입력하더라도 유사한 질문과 답변을 확인하실 수 있습니다. simpleindexer에는 5개의 top_k를 보여줍니다.
+<img src="./covidQA.gif">
 <br>
-[![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)]()
+
+[![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://master-jina-shortcode-covid-qa-frontend-msh1273.endpoint.ainize.ai/)
 
 ### Clone this repo
 
