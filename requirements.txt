@@ -1,2 +1,2 @@
 jina[http,hub,standard]==2.0
-streamlit==0.84
+streamlit
